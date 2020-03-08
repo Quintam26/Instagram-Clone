@@ -7,7 +7,7 @@ function App() {
   const [user, setUser] = React.useState('');
 
   React.useEffect(() => {
-    document.title = user ? `${user}'s feed` : 'Please login';
+    document.title = user ? `${user}'s Feed` : 'Please login';
   }, [user]);
 
   if (!user) {
